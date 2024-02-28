@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.logo {
+    max-width: 100px;
+}
+
+.menu-bar {
+    background-color: rgb(61, 14, 61);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+
+}
+
+.menu-bar ul li {
+    padding: 10px 30px;
+    position: relative;
+}
+
+.menu-bar ul li a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.05s;
+}
+
+.menu-bar ul li a:hover {
+    color: rgb(9, 167, 159);
+}
+
+.dropdown-menu {
+    display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: rgb(61, 14, 61);
+}
+
+.dropdown-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.dropdown-menu ul li {
+    width: 150px;
+    padding: 10px;
+}
+
+#right {
+    padding-left: 35px;
+
+}
+
+.doprdown-menu-1 {
+    display: none;
+}
+
+.dropdown-menu ul li:hover .doprdown-menu-1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: rgb(61, 14, 61);
+}
+
+.hero {
+    min-height: 850px;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: 100%;
+
+
+}
